@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="htmlElement">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabidco - رابيدكو | Creative Tech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/201276579697" target="_blank" class="whatsapp-float" aria-label="Contact us on WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor"/>
+        </svg>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Rabidco</span>
+                <span class="logo-arabic">رابيدكو</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#portfolio" class="nav-link" data-en="Portfolio" data-ar="المحفظة">Portfolio</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#courses" class="nav-link" data-en="Courses" data-ar="الدورات">Courses</a></li>
+                <li><a href="#team" class="nav-link" data-en="Team" data-ar="الفريق">Team</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="heroCanvas" class="hero-canvas"></canvas>
+        <div class="animated-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">R</span>
+                <span class="line">a</span>
+                <span class="line">b</span>
+                <span class="line">i</span>
+                <span class="line">d</span>
+                <span class="line">c</span>
+                <span class="line">o</span>
+            </h1>
+            <h2 class="hero-subtitle">رابيدكو</h2>
+            <p class="hero-tagline" data-en="Premium Software Solutions" data-ar="حلول برمجية متميزة">Premium Software Solutions</p>
+            <p class="hero-description" data-en="Creative tech solutions at the intersection of innovation, design and technology" data-ar="حلول تقنية إبداعية في تقاطع الابتكار والتصميم والتكنولوجيا">Creative tech solutions at the intersection of innovation, design and technology</p>
+            <a href="#portfolio" class="cta-button" data-en="Discover Our Work" data-ar="اكتشف أعمالنا">Discover Our Work</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Portfolio / Company Overview -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Where Innovation Meets Excellence" data-ar="حيث يلتقي الابتكار بالتميز">
+                    <span>W</span><span>h</span><span>e</span><span>r</span><span>e</span> <span>I</span><span>n</span><span>n</span><span>o</span><span>v</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span> <span>M</span><span>e</span><span>e</span><span>t</span><span>s</span> <span>E</span><span>x</span><span>c</span><span>e</span><span>l</span><span>l</span><span>e</span><span>n</span><span>c</span><span>e</span>
+                </h2>
+            </div>
+            <div class="portfolio-content">
+                <div class="portfolio-text">
+                    <p class="portfolio-description" data-en="Rabidco is a multidisciplinary creative tech company at the intersection of art, design and technology." data-ar="رابيدكو هي شركة تقنية إبداعية متعددة التخصصات في تقاطع الفن والتصميم والتكنولوجيا.">
+                        Rabidco is a multidisciplinary creative tech company at the intersection of art, design and technology.
+                    </p>
+                    <p class="portfolio-description" data-en="Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech companies, entertainment, arts & culture." data-ar="هدفنا هو تقديم تجارب مذهلة تجعل الناس يتحدثون، وبناء قيمة استراتيجية للعلامات التجارية وشركات التكنولوجيا والترفيه والفنون والثقافة.">
+                        Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech companies, entertainment, arts & culture.
+                    </p>
+                    <p class="portfolio-description" data-en="We're crafting emotional experiences aimed at improving results. Our strong focus on producing high quality & emotional brandings, digital products and experiences became our signature." data-ar="نحن نصنع تجارب عاطفية تهدف إلى تحسين النتائج. تركيزنا القوي على إنتاج العلامات التجارية والمنتجات الرقمية والتجارب عالية الجودة والعاطفية أصبح علامتنا المميزة.">
+                        We're crafting emotional experiences aimed at improving results. Our strong focus on producing high quality & emotional brandings, digital products and experiences became our signature.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="What We Offer" data-ar="ما نقدمه">What We Offer</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title" data-en="Web Development" data-ar="تطوير الويب">Web Development</h3>
+                    <p class="service-description" data-en="Custom web applications and websites built with modern technologies" data-ar="تطبيقات ومواقع ويب مخصصة مبنية بتقنيات حديثة">Custom web applications and websites built with modern technologies</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3 class="service-title" data-en="Automation" data-ar="الأتمتة">Automation</h3>
+                    <p class="service-description" data-en="Streamline your business processes with intelligent automation solutions" data-ar="تبسيط عمليات عملك مع حلول الأتمتة الذكية">Streamline your business processes with intelligent automation solutions</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🕷️</div>
+                    <h3 class="service-title" data-en="Web Scraping" data-ar="استخراج البيانات">Web Scraping</h3>
+                    <p class="service-description" data-en="Extract and organize data from the web efficiently and ethically" data-ar="استخراج وتنظيم البيانات من الويب بكفاءة وأخلاقية">Extract and organize data from the web efficiently and ethically</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧹</div>
+                    <h3 class="service-title" data-en="Data Scrubbing" data-ar="تنظيف البيانات">Data Scrubbing</h3>
+                    <p class="service-description" data-en="Clean, validate, and optimize your data for better insights" data-ar="تنظيف والتحقق من صحة وتحسين بياناتك للحصول على رؤى أفضل">Clean, validate, and optimize your data for better insights</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3 class="service-title" data-en="AI Solutions" data-ar="حلول الذكاء الاصطناعي">AI Solutions</h3>
+                    <p class="service-description" data-en="Leverage artificial intelligence to solve complex business challenges" data-ar="الاستفادة من الذكاء الاصطناعي لحل تحديات الأعمال المعقدة">Leverage artificial intelligence to solve complex business challenges</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3 class="service-title" data-en="Marketing" data-ar="التسويق">Marketing</h3>
+                    <p class="service-description" data-en="Digital marketing strategies that drive growth and engagement" data-ar="استراتيجيات التسويق الرقمي التي تدفع النمو والمشاركة">Digital marketing strategies that drive growth and engagement</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎮</div>
+                    <h3 class="service-title" data-en="Gaming Apps" data-ar="تطبيقات الألعاب">Gaming Apps</h3>
+                    <p class="service-description" data-en="Engaging mobile and web games that captivate audiences" data-ar="ألعاب جذابة للهواتف المحمولة والويب تجذب الجماهير">Engaging mobile and web games that captivate audiences</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title" data-en="UI/UX Design" data-ar="تصميم واجهة المستخدم">UI/UX Design</h3>
+                    <p class="service-description" data-en="Beautiful, intuitive interfaces that users love" data-ar="واجهات جميلة وبديهية يحبها المستخدمون">Beautiful, intuitive interfaces that users love</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Completed Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Featured Projects" data-ar="المشاريع المميزة">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="automation">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 18.20.33_6f8e7e17.jpg" alt="Automation Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="Automation" data-ar="الأتمتة">Automation</span>
+                        <h3 class="project-title" data-en="Business Process Automation" data-ar="أتمتة العمليات التجارية">Business Process Automation</h3>
+                        <p class="project-description" data-en="Streamlined workflows for enterprise clients" data-ar="سير عمل مبسط لعملاء المؤسسات">Streamlined workflows for enterprise clients</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 22.16.04_5846089b.jpg" alt="Web App Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="Web App" data-ar="تطبيق ويب">Web App</span>
+                        <h3 class="project-title" data-en="E-Commerce Platform" data-ar="منصة التجارة الإلكترونية">E-Commerce Platform</h3>
+                        <p class="project-description" data-en="Modern shopping experience with advanced features" data-ar="تجربة تسوق حديثة مع ميزات متقدمة">Modern shopping experience with advanced features</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 22.16.04_e064c36a.jpg" alt="AI Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="AI" data-ar="الذكاء الاصطناعي">AI</span>
+                        <h3 class="project-title" data-en="AI-Powered Analytics" data-ar="التحليلات المدعومة بالذكاء الاصطناعي">AI-Powered Analytics</h3>
+                        <p class="project-description" data-en="Intelligent data analysis and predictions" data-ar="تحليل البيانات الذكي والتنبؤات">Intelligent data analysis and predictions</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="marketing">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 23.50.54_1be82d2c.jpg" alt="Marketing Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="Marketing" data-ar="التسويق">Marketing</span>
+                        <h3 class="project-title" data-en="Brand Campaign" data-ar="حملة العلامة التجارية">Brand Campaign</h3>
+                        <p class="project-description" data-en="Multi-channel marketing strategy execution" data-ar="تنفيذ استراتيجية التسويق متعددة القنوات">Multi-channel marketing strategy execution</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="games">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 23.50.54_b8e547a3.jpg" alt="Game Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="Games" data-ar="الألعاب">Games</span>
+                        <h3 class="project-title" data-en="Mobile Game" data-ar="لعبة موبايل">Mobile Game</h3>
+                        <p class="project-description" data-en="Engaging gameplay with stunning graphics" data-ar="لعب جذاب مع رسومات مذهلة">Engaging gameplay with stunning graphics</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/WhatsApp Image 2025-11-28 at 18.20.33_6f8e7e17.jpg" alt="Web Development Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-en="Web Development" data-ar="تطوير الويب">Web Development</span>
+                        <h3 class="project-title" data-en="Corporate Website" data-ar="موقع الشركة">Corporate Website</h3>
+                        <p class="project-description" data-en="Modern, responsive website for global brand" data-ar="موقع ويب حديث ومتجاوب للعلامة التجارية العالمية">Modern, responsive website for global brand</p>
+                        <a href="#" class="project-link" data-en="Discover →" data-ar="← اكتشف">Discover →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-en="All" data-ar="الكل">All</button>
+                <button class="filter-btn" data-filter="automation" data-en="Automation" data-ar="الأتمتة">Automation</button>
+                <button class="filter-btn" data-filter="web" data-en="Web Apps" data-ar="تطبيقات الويب">Web Apps</button>
+                <button class="filter-btn" data-filter="ai" data-en="AI" data-ar="الذكاء الاصطناعي">AI</button>
+                <button class="filter-btn" data-filter="marketing" data-en="Marketing" data-ar="التسويق">Marketing</button>
+                <button class="filter-btn" data-filter="games" data-en="Games" data-ar="الألعاب">Games</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Training & Courses" data-ar="التدريب والدورات">Training & Courses</h2>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-icon">📚</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title" data-en="Web Development Bootcamp" data-ar="معسكر تطوير الويب">Web Development Bootcamp</h3>
+                        <p class="course-description" data-en="Comprehensive course covering HTML, CSS, JavaScript, and modern frameworks" data-ar="دورة شاملة تغطي HTML و CSS و JavaScript والأطر الحديثة">Comprehensive course covering HTML, CSS, JavaScript, and modern frameworks</p>
+                        <div class="course-meta">
+                            <span class="course-duration" data-en="12 Weeks" data-ar="12 أسبوع">12 Weeks</span>
+                            <span class="course-level" data-en="Beginner to Advanced" data-ar="من المبتدئ إلى المتقدم">Beginner to Advanced</span>
+                        </div>
+                        <div class="testimonial">
+                            <p class="testimonial-text" data-en='"This course transformed my career. The hands-on approach is incredible!"' data-ar='"هذه الدورة غيرت مسيرتي المهنية. النهج العملي رائع!"'>"This course transformed my career. The hands-on approach is incredible!"</p>
+                            <p class="testimonial-author" data-en="- Sarah M., Student" data-ar="- سارة م.، طالبة">- Sarah M., Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-icon">🤖</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title" data-en="AI & Machine Learning" data-ar="الذكاء الاصطناعي والتعلم الآلي">AI & Machine Learning</h3>
+                        <p class="course-description" data-en="Learn to build intelligent systems and deploy AI solutions" data-ar="تعلم بناء أنظمة ذكية ونشر حلول الذكاء الاصطناعي">Learn to build intelligent systems and deploy AI solutions</p>
+                        <div class="course-meta">
+                            <span class="course-duration" data-en="16 Weeks" data-ar="16 أسبوع">16 Weeks</span>
+                            <span class="course-level" data-en="Intermediate" data-ar="متوسط">Intermediate</span>
+                        </div>
+                        <div class="testimonial">
+                            <p class="testimonial-text" data-en='"Best AI course I\'ve taken. Real-world projects made all the difference."' data-ar='"أفضل دورة في الذكاء الاصطناعي أخذتها. المشاريع الواقعية أحدثت كل الفرق."'>"Best AI course I've taken. Real-world projects made all the difference."</p>
+                            <p class="testimonial-author" data-en="- Ahmed K., Student" data-ar="- أحمد ك.، طالب">- Ahmed K., Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-icon">⚙️</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title" data-en="Automation & Scripting" data-ar="الأتمتة والبرمجة النصية">Automation & Scripting</h3>
+                        <p class="course-description" data-en="Master automation tools and scripting languages for efficiency" data-ar="إتقان أدوات الأتمتة ولغات البرمجة النصية للكفاءة">Master automation tools and scripting languages for efficiency</p>
+                        <div class="course-meta">
+                            <span class="course-duration" data-en="8 Weeks" data-ar="8 أسابيع">8 Weeks</span>
+                            <span class="course-level" data-en="All Levels" data-ar="جميع المستويات">All Levels</span>
+                        </div>
+                        <div class="testimonial">
+                            <p class="testimonial-text" data-en='"Practical and immediately applicable. Highly recommend!"' data-ar='"عملي وقابل للتطبيق فوراً. أنصح به بشدة!"'>"Practical and immediately applicable. Highly recommend!"</p>
+                            <p class="testimonial-author" data-en="- John D., Student" data-ar="- جون د.، طالب">- John D., Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Team" data-ar="فريقنا">Our Team</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👨‍💻</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Ahmed Ashraf</h3>
+                        <p class="member-role" data-en="Lead Developer & Founder" data-ar="المطور الرئيسي والمؤسس">Lead Developer & Founder</p>
+                        <p class="member-experience" data-en="8+ Years Experience" data-ar="أكثر من 8 سنوات خبرة">8+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👩‍💻</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Sarah Johnson</h3>
+                        <p class="member-role" data-en="Senior Full-Stack Developer" data-ar="مطور Full-Stack كبير">Senior Full-Stack Developer</p>
+                        <p class="member-experience" data-en="6+ Years Experience" data-ar="أكثر من 6 سنوات خبرة">6+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👨‍💼</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Mohamed Ali</h3>
+                        <p class="member-role" data-en="AI/ML Engineer" data-ar="مهندس الذكاء الاصطناعي">AI/ML Engineer</p>
+                        <p class="member-experience" data-en="5+ Years Experience" data-ar="أكثر من 5 سنوات خبرة">5+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👩‍🎨</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Emily Chen</h3>
+                        <p class="member-role" data-en="UI/UX Designer" data-ar="مصمم واجهة المستخدم">UI/UX Designer</p>
+                        <p class="member-experience" data-en="4+ Years Experience" data-ar="أكثر من 4 سنوات خبرة">4+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👨‍🔧</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">David Park</h3>
+                        <p class="member-role" data-en="DevOps Engineer" data-ar="مهندس DevOps">DevOps Engineer</p>
+                        <p class="member-experience" data-en="7+ Years Experience" data-ar="أكثر من 7 سنوات خبرة">7+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="member-placeholder">👩‍💼</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Lisa Martinez</h3>
+                        <p class="member-role" data-en="Marketing Specialist" data-ar="أخصائي تسويق">Marketing Specialist</p>
+                        <p class="member-experience" data-en="5+ Years Experience" data-ar="أكثر من 5 سنوات خبرة">5+ Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-bg-animation"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
+                <p class="section-subtitle" data-en="We'd love to hear from you" data-ar="نود أن نسمع منك">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" data-placeholder-en="Your Name" data-placeholder-ar="اسمك" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" data-placeholder-en="Your Email" data-placeholder-ar="بريدك الإلكتروني" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" data-placeholder-en="Your Phone" data-placeholder-ar="هاتفك" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" data-placeholder-en="Your Message" data-placeholder-ar="رسالتك" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3 data-en="Address" data-ar="العنوان">Address</h3>
+                        <p data-en="123 Tech Street<br>Digital City, DC 12345<br>Country" data-ar="123 شارع التكنولوجيا<br>المدينة الرقمية، دي سي 12345<br>البلد">123 Tech Street<br>Digital City, DC 12345<br>Country</p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                        <p><a href="mailto:contact@rabidco.com">contact@rabidco.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-en="Phone" data-ar="الهاتف">Phone</h3>
+                        <p><a href="tel:+201276579697">+20 127 657 9697</a></p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/rabidco" target="_blank" class="social-link" aria-label="Facebook">Fb</a>
+                        <a href="#" class="social-link" aria-label="Instagram">Ins</a>
+                        <a href="#" class="social-link" aria-label="Twitter">Tw</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">Li</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Rabidco</h3>
+                    <p class="footer-arabic">رابيدكو</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-en="Company" data-ar="الشركة">Company</h4>
+                        <ul>
+                            <li><a href="#portfolio" data-en="About" data-ar="من نحن">About</a></li>
+                            <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                            <li><a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                            <li><a href="#team" data-en="Team" data-ar="الفريق">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-en="Resources" data-ar="الموارد">Resources</h4>
+                        <ul>
+                            <li><a href="#courses" data-en="Courses" data-ar="الدورات">Courses</a></li>
+                            <li><a href="#" data-en="Blog" data-ar="المدونة">Blog</a></li>
+                            <li><a href="#" data-en="Careers" data-ar="الوظائف">Careers</a></li>
+                            <li><a href="#contact" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-en="Newsletter" data-ar="النشرة الإخبارية">Newsletter</h4>
+                        <form class="newsletter-form">
+                            <input type="email" data-placeholder-en="Your email" data-placeholder-ar="بريدك الإلكتروني" placeholder="Your email" required>
+                            <button type="submit" data-en="Subscribe" data-ar="اشترك">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rabidco - رابيدكو. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
